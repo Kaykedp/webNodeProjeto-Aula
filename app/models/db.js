@@ -1,6 +1,6 @@
 const pg = require("pg");
 const { Pool, Client } = pg;
-const dbConfig = require("../config/db.config.js");
+const dbConfig = require("../models/db.config.js");
 const pool = new Pool({
  host: dbConfig.HOST,
  database: dbConfig.DATABASE,
