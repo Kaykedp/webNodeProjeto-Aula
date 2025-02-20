@@ -1,8 +1,8 @@
 module.exports = {
     HOST: "localhost",
-    DATABASE: 'aulas',
+    DATABASE: 'webNode',
     USER: "postgres",
-    PASSWORD: "123456",
+    PASSWORD: "ifrn.cn",
     PORT: 5432,
     MAX: 20,
     IDLETIMEOUTMILLIS: 30000,
